@@ -14,6 +14,10 @@ body {
   background: var(--cor-secundaria);
   line-height: 1.6;
 }
+#dov {
+    display: flex;
+    justify-content: center;
+}
 
 /* Cabeçalho */
 header {
