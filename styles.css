@@ -1,0 +1,106 @@
+:root {
+  --cor-primaria: #2b8a3e;
+  --cor-secundaria: #f4f4f4;
+  --cor-texto: #333;
+  --cor-btn: #ff9800;
+  --cor-btn-hover: #e68900;
+  --radius: 8px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  color: var(--cor-texto);
+  background: var(--cor-secundaria);
+  line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+  background: var(--cor-primaria);
+  color: white;
+  padding: 10px 0;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.menu a.ativo {
+  border-bottom: 2px solid white;
+}
+
+/* Sessões */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: url('../img/banner.jpg') center/cover no-repeat;
+  color: black;
+}
+
+.btn {
+  background: var(--cor-btn);
+  color: white;
+  padding: 10px 20px;
+  border-radius: var(--radius);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: var(--cor-btn-hover);
+}
+
+/* Formulários */
+form {
+  max-width: 600px;
+  margin: 40px auto;
+  background: white;
+  padding: 20px;
+  border-radius: var(--radius);
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: var(--radius);
+  border: 1px solid #ccc;
+}
+
+button {
+  margin-top: 20px;
+  background: var(--cor-primaria);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: var(--radius);
+  cursor: pointer;
+}
+
+button:hover {
+  background: #256f35;
+}
