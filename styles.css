@@ -70,6 +70,10 @@ header {
 .btn:hover {
   background: var(--cor-btn-hover);
 }
+.projetos {
+  text-align: center;
+  padding: 40px 20px;
+}
 
 /* Formulários */
 form {
